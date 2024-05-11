@@ -14,7 +14,7 @@ import router from './router'
 
 const app = createApp(App)
 
-axios.defaults,baseURL = "http://127.0.0.1:8000/api/"
+axios.defaults.baseURL = "http://127.0.0.1:8000/api/"
 
 app.use(createPinia())
 app.use(router)
